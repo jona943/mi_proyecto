@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #f5f5f7; /* Texto claro */
+    background-color: #131313; /* Fondo armonioso */
+}
+
+header {
+    background-color: #1c1c1e; /* Azul más oscuro y elegante */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-weight: 700;
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-weight: 300;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.intro {
+    background-color: #2c2c2e; /* Azul oscuro */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.2em;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.main-content, .sidebar {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main-content {
+    width: 68%;
+}
+
+.sidebar {
+    width: 30%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.sidebar img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    border-bottom: 2px solid #007aff; /* Azul Apple */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+dt {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    margin-top: 36px;
+}
+
+dd {
+    margin: 0 0 20px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin-top: 16px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #0a84ff; /* Azul más claro para enlaces */
+    font-weight: bold;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #1c1c1e; /* Fondo oscuro */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+footer p {
+    margin: 5px 0 0 0;
+    font-size: 1em;
+}
